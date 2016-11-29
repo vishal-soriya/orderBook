@@ -12,25 +12,25 @@ var orderBookApp = angular.module('orderBook',['ui.router'])
 	$stateProvider
 		.state('dashboard', {
 			url: '/dashboard',
-			templateUrl: '/first/html/dashboard.html',
+			templateUrl: 'html/dashboard.html',
 			controller: 'dashboardController',
 			controllerAs: 'dashboardCtrl'
 		})
 		.state('orders', {
 			url: '/orders',
-			templateUrl: '/first/html/orders.html',
+			templateUrl: 'html/orders.html',
 			controller: 'ordersController',
 			controllerAs: 'ordersCtrl'
 		})
 		.state('items', {
 			url: '/items',
-			templateUrl: '/first/html/items.html',
+			templateUrl: 'html/items.html',
 			controller: 'itemsController',
 			controllerAs: 'itemsCtrl'
 		})
 		.state('customers', {
 			url: '/customers',
-			templateUrl: '/first/html/customers.html',
+			templateUrl: 'html/customers.html',
 			controller: 'customersController',
 			controllerAs: 'customerCtrl'
 		});
